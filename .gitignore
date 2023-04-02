@@ -4,4 +4,5 @@
 !/scaffolds/
 
 !/_config.yml
+!/_config.*.yml
 !/.gitignore
