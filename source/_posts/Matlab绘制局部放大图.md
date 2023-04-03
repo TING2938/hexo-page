@@ -39,5 +39,5 @@ ylim(ax2, [-1, -0.3])
 
 输出：
 <div align=center>
-<img src="/images/sub_figure.svg" width="50%" height="50%">
+<img src="Matlab绘制局部放大图/2023-04-03-21-10-16.png" width="50%" height="50%">
 </div>

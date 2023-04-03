@@ -29,7 +29,7 @@ legend('Location', 'north');
 
 print(fig, 'sincos.svg', '-r300', '-dsvg'); % 输出为 svg 格式
 ```
-![](/images/sincos.svg)
+![](干货！Matlab-AI打造高质量论文图片/2023-04-03-21-16-49.png)
 
 ### 2. 打开AI (Adobe illustrator)，新建，设置图纸大小（16cm X 10cm）
 
@@ -40,12 +40,12 @@ print(fig, 'sincos.svg', '-r300', '-dsvg'); % 输出为 svg 格式
    
    插入到AI中的图片可能会很大，这时就要对图片进行缩放，可以用鼠标进行缩放，如果要保证横纵缩放比例一致，需要按住`Shift`键。用鼠标缩放可能会导致字体大小不一致，这时需要输入具体数值改变图片大小，输入的数值需要与Matlab中设定的图片大小一致，可能缩放过后线条的粗细没变，这时需要设置`缩放描边和效果`
 
-   ![](/images/matlabAI1.png)
+   ![](干货！Matlab-AI打造高质量论文图片/2023-04-03-21-17-14.png)
 
-   ![](/images/matlabAI2.png)
+   ![](干货！Matlab-AI打造高质量论文图片/2023-04-03-21-17-30.png)
 
 ### 5. 从AI中输出高质量矢量图
 
 文件->存储为，可以保存为`pdf`或`eps`等矢量图格式
 
-![](/images/sincos_AI.svg)
+![](干货！Matlab-AI打造高质量论文图片/2023-04-03-21-17-57.png)

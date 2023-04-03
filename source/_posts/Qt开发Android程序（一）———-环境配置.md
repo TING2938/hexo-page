@@ -24,29 +24,29 @@ Qt Creator(QC)作为IDE，在安装QC时需要选择安装Android模块，此外
   
     到[此处](http://sdk.android-studio.org)下载最新版SDK，SDK安装好后，打开SDK Manager，安装如下图所示项目：
 
-    ![](/images/SDK1.png)
+    ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-11-29.png)
 
     这里选择Android 7.1.1(API 25)套件
 
-    ![](/images/SDK2.png)
+    ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-11-59.png)
 
-    ![](/images/SDK3.png)
+    ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-12-16.png)
 
 - 配置Qt Creator
   
   打开菜单栏工具-选项-设备，将SDK，JDK，NDK路径填入
 
-  ![](/images/QC1.png)
+  ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-12-47.png)
 
 - 配置虚拟机(AVD)
   
   打开AVD manager，点击右侧Creat创建一个虚拟机，参数配置如下（如果自己手机方便的话也可以直接用手机调试）：
 
-  ![](/images/AVD1.png)
+  ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-13-08.png)
 
   点击Start查看运行效果
 
-  ![](/images/AVD2.png)
+  ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-13-31.png)
 
 ## 简单的例子
 
@@ -86,12 +86,12 @@ Qt Creator(QC)作为IDE，在安装QC时需要选择安装Android模块，此外
    
    在Build步骤里，ABIs选择**x86_64**，Android build SDK选择**android-25**
 
-   ![](/images/QC2.png)
+   ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-14-04.png)
 
-   ![](/images/QC3.png)
+   ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-14-25.png)
 
 3. 调试
    
    点击左下角锤子符号编译，点击绿色三角运行，选择前面配置的虚拟机作为调试机，查看运行效果
 
-   ![](/images/AVD3.png)
+   ![](Qt开发Android程序（一）———-环境配置/2023-04-03-21-14-44.png)

@@ -68,7 +68,7 @@ VMD（[http://www.ks.uiuc.edu/Research/vmd/](http://www.ks.uiuc.edu/Research/vmd
 
 这些单关键词实际上可以在Representation界面里的Selections标签页里的Singlewords直接看到，可见可以用的单关键词远不止上述这些。有些单关键词其实是复合选择语句，比如你选中hetero，就会看到其定义其实是not (protein or nucleic)。
 
-![](/images/vmd_1.png)
+![](VMD原子选区语法/2023-04-03-21-19-43.png)
 
 注意有些情况下，单关键词未必能如实选择相应的区域。比如你载入的结构里有水，如果输入文件里水的残基名很特殊，比如叫FFF，那么VMD就不会把这个残基识别成水分子，用water关键词的时候也没法选中这些水。
 
@@ -120,7 +120,7 @@ VMD（[http://www.ks.uiuc.edu/Research/vmd/](http://www.ks.uiuc.edu/Research/vmd
 
 每个属性后面能接什么值，在Selections标签页里都能看到，不确定的话看一眼便知：
 
-![](/images/vmd_2.png)
+![](VMD原子选区语法/2023-04-03-21-19-24.png)
 
 
 许多属性并非对于任何输入文件都能用。比如：

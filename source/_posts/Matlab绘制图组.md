@@ -50,7 +50,7 @@ title(ax, 'Title')
 绘制2行1列图组，设置两子图之间纵向间距为0，结果如下：
 
 <div align=center>
-<img src="/images/subplot_adjust.png" width="50%" height="50%">
+<img src="Matlab绘制图组/2023-04-03-21-08-30.png" width="50%" height="50%">
 </div>
 
 ## 源码
