@@ -2,6 +2,7 @@
 
 !/source/
 !/scaffolds/
+!/.vscode/
 
 !/_config.yml
 !/_config.*.yml
