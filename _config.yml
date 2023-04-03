@@ -103,8 +103,6 @@ all_minifier: true
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: 
-   # - git@gitee.com:ting2938/ting2938.git
-    - git@github.com:TING2938/TING2938.github.io.git
-  branch: master
+  - type: git
+    repo: git@github.com:TING2938/TING2938.github.io.git
+    branch: master
