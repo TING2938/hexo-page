@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
-categories:
-excerpt:  
+categories: uncategorized
+tags: untaged
+excerpt: unexcerpted
 ---
