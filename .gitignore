@@ -3,7 +3,9 @@
 !/source/
 !/scaffolds/
 !/.vscode/
+!/.github/
 
 !/_config.yml
 !/_config.*.yml
 !/.gitignore
+!/package*.json
